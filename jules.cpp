@@ -16,8 +16,8 @@ std::string toBase26(int n) {
 
 int main()
 {
-    for (int i = 0; i < 350; ++i) {
-        std::cout << toBase26(i) << " Hello Jules" << std::endl;
+    for (int j = 0; j < 350; ++j) {
+        std::cout << toBase26(j) << " Hello Jules" << std::endl;
     }
 
     return 0;
